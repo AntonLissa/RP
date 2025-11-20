@@ -1,0 +1,14 @@
+-- Found ament_cmake: 2.5.4 (/home/tony/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/home/tony/ros2_jazzy/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/home/tony/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/home/tony/ros2_jazzy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/home/tony/ros2_jazzy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/home/tony/ros2_jazzy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/home/tony/ros2_jazzy/install/std_msgs/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/home/tony/ros2_jazzy/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/home/tony/ros2_jazzy/install/visualization_msgs/share/visualization_msgs/cmake)
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,13 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm_node.cpp.o[0m
+[01m[K/home/tony/progetti_ros/RP/ws/arm_sim/src/arm_node.cpp:[m[K In constructor ‘[01m[KArmNode::[01;32m[KArmNode[m[K()[m[K’:
+[01m[K/home/tony/progetti_ros/RP/ws/arm_sim/src/arm_node.cpp:30:66:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst Eigen::Vector3d&[m[K’ {aka ‘[01m[Kconst Eigen::Matrix<double, 3, 1>&[m[K’} from expression of type ‘[01m[Kdouble[m[K’
+   30 |         trajectory_points_ = generateEllipseTrajectory(0.3, 0.2, [01;31m[K0.0[m[K, 50);
+      |                                                                  [01;31m[K^~~[m[K
+In file included from [01m[K/home/tony/progetti_ros/RP/ws/arm_sim/src/arm_node.cpp:3[m[K:
+[01m[K/home/tony/progetti_ros/RP/ws/arm_sim/include/arm_sim/trajectories.hpp:8:99:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >[01;32m[K generateEllipseTrajectory[m[K(double, double, const Eigen::Vector3d&, int)[m[K’
+    8 | ateEllipseTrajectory(double a, double b, [01;36m[Kconst Eigen::Vector3d& center[m[K, int n_points);
+      |                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:76: CMakeFiles/arm_node.dir/src/arm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

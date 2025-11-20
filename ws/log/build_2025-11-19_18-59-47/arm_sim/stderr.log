@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/arm_node.dir/src/trajectories.cpp.o: in function `generateCircleTrajectory(double, Eigen::Matrix<double, 3, 1, 0, 3, 1>, int)':
+trajectories.cpp:(.text+0x0): multiple definition of `generateCircleTrajectory(double, Eigen::Matrix<double, 3, 1, 0, 3, 1>, int)'; CMakeFiles/arm_node.dir/src/arm_node.cpp.o:arm_node.cpp:(.text+0x69): first defined here
+/usr/bin/ld: CMakeFiles/arm_node.dir/src/trajectories.cpp.o: in function `generateLineTrajectory(Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1>, int)':
+trajectories.cpp:(.text+0x17e): multiple definition of `generateLineTrajectory(Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1>, int)'; CMakeFiles/arm_node.dir/src/arm_node.cpp.o:arm_node.cpp:(.text+0x1e7): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:1240: arm_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

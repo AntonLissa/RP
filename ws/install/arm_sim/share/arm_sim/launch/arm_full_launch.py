@@ -1,0 +1,1 @@
+/home/tony/progetti_ros/RP/ws/arm_sim/launch/arm_full_launch.py

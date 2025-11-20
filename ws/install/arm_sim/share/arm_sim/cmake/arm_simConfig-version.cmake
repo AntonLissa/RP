@@ -1,0 +1,1 @@
+/home/tony/progetti_ros/RP/ws/build/arm_sim/ament_cmake_core/arm_simConfig-version.cmake

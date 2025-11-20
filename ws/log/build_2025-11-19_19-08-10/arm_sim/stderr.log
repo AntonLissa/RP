@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:18 (iinclude_directories):
+  Unknown CMake command "iinclude_directories".
+
+[0m
+gmake: *** [Makefile:321: cmake_check_build_system] Error 1

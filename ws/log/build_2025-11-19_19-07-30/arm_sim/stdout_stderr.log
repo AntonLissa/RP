@@ -1,0 +1,10 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/trajectories.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm_node.cpp.o[0m
+[01m[K/home/tony/progetti_ros/RP/ws/arm_sim/src/trajectories.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ktrajectories.hpp: No such file or directory
+    1 | #include [01;31m[K"trajectories.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:104: CMakeFiles/arm_node.dir/src/trajectories.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

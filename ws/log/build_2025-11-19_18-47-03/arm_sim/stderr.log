@@ -1,0 +1,7 @@
+[01m[K/home/tony/progetti_ros/RP/ws/arm_sim/src/arm_node.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+   13 | #include [01;31m[K<nlohmann/json.hpp>[m[K  // JSON parser (aggiungi dipendenza in package.xml)
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:76: CMakeFiles/arm_node.dir/src/arm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
